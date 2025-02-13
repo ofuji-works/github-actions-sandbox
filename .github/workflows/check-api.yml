@@ -1,5 +1,7 @@
 name: check-api
 on: [push, pull_request]
+permissions:
+  checks: write
 jobs:
   check:
     runs-on: ubuntu-latest
